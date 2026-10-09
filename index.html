@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>مزايا</title>
+<style>
+  :root { --main:#0f766e; --dark:#134e4a; --light:#f0fdfa; --text:#1f2937; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family: Tahoma, Arial, sans-serif; color:var(--text); background:#fff; line-height:1.8; }
+  header { background:var(--dark); color:#fff; padding:14px 20px; display:flex; justify-content:space-between; align-items:center; }
+  header h1 { font-size:1.4rem; }
+  nav a { color:#fff; text-decoration:none; margin-inline-start:16px; font-size:.95rem; }
+  .hero { background:linear-gradient(135deg,var(--main),var(--dark)); color:#fff; text-align:center; padding:70px 20px; }
+  .hero h2 { font-size:2rem; margin-bottom:12px; }
+  .hero p { max-width:520px; margin:0 auto 24px; opacity:.95; }
+  .btn { display:inline-block; background:#fff; color:var(--dark); padding:12px 28px; border-radius:30px; text-decoration:none; font-weight:bold; }
+  section { padding:50px 20px; max-width:900px; margin:auto; }
+  section h3 { text-align:center; color:var(--dark); margin-bottom:24px; font-size:1.5rem; }
+  .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; }
+  .card { background:var(--light); border-radius:14px; padding:22px; text-align:center; }
+  .card h4 { color:var(--main); margin-bottom:8px; }
+  #contact { text-align:center; background:var(--light); max-width:none; }
+  footer { background:var(--dark); color:#fff; text-align:center; padding:16px; font-size:.9rem; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>مزايا</h1>
+  <nav>
+    <a href="#about">من نحن</a>
+    <a href="#services">خدماتنا</a>
+    <a href="#contact">اتصل بنا</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h2>مرحبًا بكم في مزايا</h2>
+  <p>اكتب هنا جملة قصيرة تعرّف بنشاطك وما يميّزك عن غيرك.</p>
+  <a class="btn" href="#contact">تواصل معنا</a>
+</div>
+
+<section id="about">
+  <h3>من نحن</h3>
+  <p style="text-align:center">اكتب هنا نبذة عن مزايا: ماذا تقدّم، ولمن، ولماذا يثق بك الزبائن.</p>
+</section>
+
+<section id="services">
+  <h3>خدماتنا</h3>
+  <div class="cards">
+    <div class="card"><h4>الخدمة الأولى</h4><p>وصف قصير للخدمة.</p></div>
+    <div class="card"><h4>الخدمة الثانية</h4><p>وصف قصير للخدمة.</p></div>
+    <div class="card"><h4>الخدمة الثالثة</h4><p>وصف قصير للخدمة.</p></div>
+  </div>
+</section>
+
+<section id="contact">
+  <h3>اتصل بنا</h3>
+  <p>الهاتف: 0000 00 00 00</p>
+  <p>البريد: example@email.com</p>
+</section>
+
+<footer>© 2026 مزايا. جميع الحقوق محفوظة.</footer>
+
+</body>
+</html>
